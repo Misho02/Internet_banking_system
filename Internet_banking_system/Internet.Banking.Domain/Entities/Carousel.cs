@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Internet.Banking.Domain.Entities
 {
-    public class Carousel
+    public class Carousel: Entity<int>
     {
         public string ImageSrc { get; set; }
         public string ImageAlt { get; set; }

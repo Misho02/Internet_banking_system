@@ -15,7 +15,6 @@ namespace Internet_banking_system.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            //return View();
             IList<Customer> customers = _customerAppService.Select();
             return View(customers);
         }
