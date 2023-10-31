@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aQpBeEYh40SEFElluTgepiNx5rdJflQhW3iNxTNg838=",
+  "Hash": "LErcDIk9UaPcU9YUdRP+WPAENrEhRP97plUG7c3D+UA=",
   "Source": "Internet_banking_system",
   "BasePath": "_content/Internet_banking_system",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Fatal\\Documents\\AP5PW\\Projekty\\Home\\Internet_banking_system\\Internet_banking_system\\wwwroot\\js\\dialogs.js",
+      "SourceId": "Internet_banking_system",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fatal\\Documents\\AP5PW\\Projekty\\Home\\Internet_banking_system\\Internet_banking_system\\wwwroot\\",
+      "BasePath": "_content/Internet_banking_system",
+      "RelativePath": "js/dialogs.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dialogs.js"
     },
     {
       "Identity": "C:\\Users\\Fatal\\Documents\\AP5PW\\Projekty\\Home\\Internet_banking_system\\Internet_banking_system\\wwwroot\\js\\site.js",

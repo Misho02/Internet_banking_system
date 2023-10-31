@@ -15,5 +15,28 @@ namespace Internet.Banking.Application.Implementation
 		{
 			return DatabaseFake.Customers;
 		}
-	}
+        public void Create(Customer customer)
+        {
+            if (DatabaseFake.Customers != null && DatabaseFake.Customers.Count > 0)
+            {
+                customer.Id = DatabaseFake.Customers.Last().Id + 1;
+            }
+            else
+                customer.Id = 1;
+            if (DatabaseFake.Customers != null)
+            {
+                DatabaseFake.Customers.Add(customer);
+            }
+        }
+        public bool Delete(int id)
+        {
+            bool deleted = false;
+            Customer? customer = DatabaseFake.Customers.FirstOrDefault(cust => cust.Id == id);
+            if (customer != null)
+            {
+                deleted = DatabaseFake.Customers.Remove(customer);
+            }
+            return deleted;
+        }
+    }
 }
