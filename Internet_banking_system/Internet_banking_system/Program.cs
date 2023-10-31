@@ -1,7 +1,12 @@
+using Internet.Banking.Application.Abstraction;
+using Internet.Banking.Application.Implementation;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<ICustomerAppService, CustomerAppDFService>();
 
 var app = builder.Build();
 

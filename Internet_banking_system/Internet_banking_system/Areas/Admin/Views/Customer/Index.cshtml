@@ -1,4 +1,8 @@
-﻿@* "@{}" This code block is used to write C# code within your view 
+﻿
+@model IList<Customer>
+
+
+@* "@{}" This code block is used to write C# code within your view 
 	In this code block, you are setting the value of the "Title" key in the "ViewData"
 	dictionary to "Customer Administration"
 *@
@@ -9,3 +13,34 @@
 	<h1> HTML Element
 *@
 <h1>@ViewData["Title"]</h1>
+
+@{
+    if (Model != null && Model.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">@nameof(Customer.Id)</th>
+                    <th scope="col">@nameof(Customer.CustomerName)</th>
+                    <th scope="col">@nameof(Customer.CustomerSurname)</th>
+                    <th scope="col">@nameof(Customer.CustomerPhone)</th>
+                    <th scope="col">@nameof(Customer.CustomerEmail)</th>
+                    <th scope="col">@nameof(Customer.CustomerAdress)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; ++i)
+                {
+                    <tr>
+                        <th scope="row">@Model[i].Id</th>
+                        <td>@Model[i].CustomerName</td>
+                        <td>@Model[i].CustomerSurname</td>
+                        <td>@Model[i].CustomerPhone</td>
+                        <td>@Model[i].CustomerEmail</td>
+                        <td>@Model[i].CustomerAdress</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}

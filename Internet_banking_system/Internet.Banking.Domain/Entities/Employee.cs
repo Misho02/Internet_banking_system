@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Internet.Banking.Domain.Entities
 {
-    public class Employee
+    public class Employee: Entity<int>
     {
-        public int EmployeeId { get; set; }
         public string FirstName { get; set; }
         public string Surname { get; set; }
         public string PhoneNumber { get; set; }
