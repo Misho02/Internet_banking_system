@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet.Banking.web", "Internet_banking_system\Internet.Banking.web.csproj", "{743717BB-E6ED-4F9B-9A5D-6A117C53F15C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet_banking_system", "Internet_banking_system\Internet_banking_system.csproj", "{743717BB-E6ED-4F9B-9A5D-6A117C53F15C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet.Banking.Application", "Internet.Banking.Application\Internet.Banking.Application.csproj", "{C859EA94-34CE-4E5D-BB0F-7E21F9ABBF31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet.Banking.Domain", "Internet.Banking.Domain\Internet.Banking.Domain.csproj", "{44FAFFBC-46ED-4B61-8C89-1B83EE65DFE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet.Banking.Infrastructure", "Internet.Banking.Infrastructure\Internet.Banking.Infrastructure.csproj", "{532E4473-BAD3-4482-A3C9-7B54DE875B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet.Banking.Tests", "Internet.Banking.Tests\Internet.Banking.Tests.csproj", "{A854F2CA-C2CA-40A2-B3E7-95E7D334B781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{532E4473-BAD3-4482-A3C9-7B54DE875B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532E4473-BAD3-4482-A3C9-7B54DE875B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532E4473-BAD3-4482-A3C9-7B54DE875B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A854F2CA-C2CA-40A2-B3E7-95E7D334B781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A854F2CA-C2CA-40A2-B3E7-95E7D334B781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A854F2CA-C2CA-40A2-B3E7-95E7D334B781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A854F2CA-C2CA-40A2-B3E7-95E7D334B781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

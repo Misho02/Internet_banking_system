@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Fatal\\Documents\\AP5PW\\Projekty\\Home\\Internet_banking_system\\Internet_banking_system\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Internet.Banking.web.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Internet.Banking.web.bundle.scp.css"
+      "Id": "C:\\Users\\Fatal\\Documents\\AP5PW\\Projekty\\Home\\Internet_banking_system\\Internet_banking_system\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Internet_banking_system.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Internet_banking_system.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Fatal\\Documents\\AP5PW\\Projekty\\Home\\Internet_banking_system\\Internet_banking_system\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Internet.Banking.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Internet_banking_system.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Internet.Banking.web.props",
-      "PackagePath": "build\\Internet.Banking.web.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Internet_banking_system.props",
+      "PackagePath": "build\\Internet_banking_system.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Internet.Banking.web.props",
-      "PackagePath": "buildMultiTargeting\\Internet.Banking.web.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Internet_banking_system.props",
+      "PackagePath": "buildMultiTargeting\\Internet_banking_system.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Internet.Banking.web.props",
-      "PackagePath": "buildTransitive\\Internet.Banking.web.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Internet_banking_system.props",
+      "PackagePath": "buildTransitive\\Internet_banking_system.props"
     }
   ],
   "ElementsToRemove": []

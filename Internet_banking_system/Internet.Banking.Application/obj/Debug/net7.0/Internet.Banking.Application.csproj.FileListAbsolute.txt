@@ -1,0 +1,17 @@
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Application.deps.json
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Application.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Application.pdb
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Domain.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Infrastructure.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Domain.pdb
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\bin\Debug\net7.0\Internet.Banking.Infrastructure.pdb
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.csproj.AssemblyReference.cache
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.AssemblyInfoInputs.cache
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.AssemblyInfo.cs
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.csproj.CoreCompileInputs.cache
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.csproj.CopyComplete
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\refint\Internet.Banking.Application.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\Internet.Banking.Application.pdb
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Application\obj\Debug\net7.0\ref\Internet.Banking.Application.dll

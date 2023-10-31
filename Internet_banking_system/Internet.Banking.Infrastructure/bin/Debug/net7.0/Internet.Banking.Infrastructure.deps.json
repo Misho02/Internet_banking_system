@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Internet.Banking.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Internet.Banking.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Internet.Banking.Infrastructure.dll": {}
+        }
+      },
+      "Internet.Banking.Domain/1.0.0": {
+        "runtime": {
+          "Internet.Banking.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Internet.Banking.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Internet.Banking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

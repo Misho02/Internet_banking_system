@@ -1,0 +1,11 @@
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\bin\Debug\net7.0\Internet.Banking.Domain.deps.json
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\bin\Debug\net7.0\Internet.Banking.Domain.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\bin\Debug\net7.0\Internet.Banking.Domain.pdb
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\Internet.Banking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\Internet.Banking.Domain.AssemblyInfoInputs.cache
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\Internet.Banking.Domain.AssemblyInfo.cs
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\Internet.Banking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\Internet.Banking.Domain.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\refint\Internet.Banking.Domain.dll
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\Internet.Banking.Domain.pdb
+C:\Users\Fatal\Documents\AP5PW\Projekty\Home\Internet_banking_system\Internet.Banking.Domain\obj\Debug\net7.0\ref\Internet.Banking.Domain.dll

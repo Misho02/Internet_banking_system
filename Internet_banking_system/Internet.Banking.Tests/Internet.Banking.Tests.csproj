@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Internet_banking_system\Internet_banking_system.csproj" />
+  </ItemGroup>
+
 </Project>

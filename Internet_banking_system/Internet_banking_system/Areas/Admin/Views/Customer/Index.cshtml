@@ -1,0 +1,11 @@
+﻿@* "@{}" This code block is used to write C# code within your view 
+	In this code block, you are setting the value of the "Title" key in the "ViewData"
+	dictionary to "Customer Administration"
+*@
+@{
+	ViewData["Title"] = "Customer Administration";
+}
+@*This line is responsible for rendering the value of the "Title" key from 'ViewData' within an
+	<h1> HTML Element
+*@
+<h1>@ViewData["Title"]</h1>

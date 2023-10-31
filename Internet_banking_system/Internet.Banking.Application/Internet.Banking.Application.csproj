@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Internet.Banking.Domain\Internet.Banking.Domain.csproj" />
+    <ProjectReference Include="..\Internet.Banking.Infrastructure\Internet.Banking.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
