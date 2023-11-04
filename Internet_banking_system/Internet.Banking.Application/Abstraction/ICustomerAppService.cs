@@ -13,6 +13,9 @@ namespace Internet.Banking.Application.Abstraction
 		IList<Customer> Select();
 		void Create(Customer customer);
 		bool Delete(int id);	
+		Customer Update(int id);
+		void Update(Customer customer);
+		
 	}
 	
 }

@@ -38,5 +38,23 @@ namespace Internet.Banking.Application.Implementation
             }
             return deleted;
         }
+        public Customer Update(int id)
+        {
+            Customer? customer_db = DatabaseFake.Customers.FirstOrDefault(cust => cust.Id == id);
+            return customer_db;
+        }
+        public void Update(Customer customer)
+        {
+            Customer? customer_db = Update(customer.Id);
+            
+            if (customer_db != null)
+            {
+                customer_db.CustomerName = customer.CustomerName;
+                customer_db.CustomerSurname = customer.CustomerSurname;
+                customer_db.CustomerPhone = customer.CustomerPhone;
+                customer_db.CustomerEmail = customer.CustomerEmail;
+                customer_db.CustomerAdress = customer.CustomerAdress;
+            }
+        }
     }
 }

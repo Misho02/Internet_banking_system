@@ -30,5 +30,29 @@ namespace Internet_banking_system.Areas.Admin.Controllers
             _customerAppService.Create(customer);
             return RedirectToAction(nameof(CustomerController.Index));
         }
+        public IActionResult Delete(int id)
+        {
+            bool deleted = _customerAppService.Delete(id);
+
+            if (deleted)
+            {
+                return RedirectToAction(nameof(CustomerController.Index));
+            }
+            else
+                return NotFound();
+        }
+        public IActionResult Update(int id)
+        {
+            Customer customer = _customerAppService.Update(id);
+            return View(customer);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Customer customer)
+        {
+            _customerAppService.Update(customer);
+            return RedirectToAction(nameof(CustomerController.Index));
+        }
+
     }
 }

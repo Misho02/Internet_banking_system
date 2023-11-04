@@ -14,7 +14,7 @@
 *@
 <h1>@ViewData["Title"]</h1>
 
-<a asp-action="Create">Create Customer</a>
+
 
 @{
     if (Model != null && Model.Count > 0)
@@ -29,6 +29,7 @@
                     <th scope="col">@nameof(Customer.CustomerEmail)</th>
                     <th scope="col">@nameof(Customer.CustomerAdress)</th>
                     <th scope="col">Delete</th>
+                    <th scope="col">Update</th>
                 </tr>
             </thead>
             <tbody>
@@ -42,12 +43,17 @@
                         <td>@Model[i].CustomerEmail</td>
                         <td>@Model[i].CustomerAdress</td>
                         <td><a asp-action="Delete" asp-route-id="@Model[i].Id" onclick="return ConfirmDelete();">Delete</a></td>
+                        <td><a asp-action="Update" asp-route-id="@Model[i].Id" onclick="return ConfirmUpdate();">Update</a></td>
                     </tr>
                 }
             </tbody>
         </table>
     }
 }
+
+<button type="button" class="btn btn-dark" onclick="window.location.href = '@Url.Action("Create")'">Create Customer</button>
+
+
 @section Scripts
     {
     <script src="~/js/dialogs.js"></script>
